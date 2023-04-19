@@ -16,12 +16,6 @@ def guess_number():
             st.image(cake_img, use_column_width=True)
         else:
             st.write("Sorry, that's not the correct number. Try again!")
-            
-    st.write("Click the button below to claim your gift!")
-    if st.button("Get Your Gift"):
-            st.write("Redirecting to gift page...")
-            # Replace the URL below with the actual URL of the gift page
-            st.redirect("https://www.google.com")
-            
+ 
 if __name__ == "__main__":
     guess_number()
