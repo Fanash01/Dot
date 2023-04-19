@@ -21,7 +21,7 @@ def guess_number():
     if st.button("Get Your Gift"):
             st.write("Redirecting to gift page...")
             # Replace the URL below with the actual URL of the gift page
-            st.redirect("https://www.example.com/birthday-gift")
+            st.redirect("https://www.google.com")
             
 if __name__ == "__main__":
     guess_number()
